@@ -1,1 +1,155 @@
-/* Other rules */
+/* COMMON RULES */
+
+body {
+  background-image: url("./assets/img/background.jpg");
+}
+
+div {
+  display: block;
+}
+
+img {
+  pointer-events: none;
+}
+
+button {
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: center;
+  align-items: flex-start;
+}
+
+input {
+  text-rendering: auto;
+  color: black;
+  text-transform: none;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  appearance: textfield;
+  -webkit-rtl-ordering: logical;
+  cursor: text;
+  margin: 0em;
+}
+
+.loader {
+  margin: 75px auto;
+  height: calc(75vh - 200px); /* viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagi {
+  color: red;
+  background-color: red;
+}
+
+/* HEADER */
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1280px;
+  margin: auto;
+  padding: 10px 0;
+  background-color: red;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.header-container > div:first-child,
+.header-logo {
+  cursor: pointer;
+}
+
+.header-logo {
+  height: 40px;
+  padding-bottom: 15px;
+  background-color: white;
+  margin-left: 40px;
+}
+
+.search-cont {
+  position: relative;
+}
+
+.search-input {
+  margin-top: 20px;
+  font-family: "Font";
+  padding-left: 40px;
+  width: 590px;
+  background-color: white;
+  border-radius: 5px;
+  height: 37px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+.search-icon {
+  position: relative;
+  left: 7px;
+  top: -27px;
+  color: red;
+}
+
+.header-button {
+  height: 30px;
+  width: 115px;
+  border-radius: 5px;
+  font-family: "Font";
+  font-size: 17px;
+  outline: none;
+  color: white;
+  border: 2px solid white;
+  font-weight: 550;
+}
+
+.button-char-fav-comics {
+  background-color: red;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-right: 50px;
+}
+
+/* CHARACTERS */
+
+.char-name {
+  font-size: 20px;
+  color: red;
+}
+
+.marvel-char,
+.char-name {
+  margin-top: 10px;
+}
+
+.home-card-wrapper {
+  width: 1280px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px auto auto;
+}
+
+.card-container {
+  width: 235px;
+  padding: 0 6px 16px;
+  cursor: pointer;
+}
+
+.card-container img {
+  height: 360px;
+  width: 235px;
+  object-fit: fill;
+  border-radius: 4px;
+}
+
+/* COMICS */
